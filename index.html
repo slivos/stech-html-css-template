@@ -4,9 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: myriad-pro, sans-serif;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 210mm;
+        margin: 8.7691mm auto;
+      }
+
+      .wrapper {
+        display: table;
+        width: 210mm;
+        margin: 8.7691mm auto;
+        text-align: center;
+      }
+
+      .card {
+        display: inline-block;
+        vertical-align: middle;
+        width: 73.146mm;
+        height: 73.146mm;
+        border-top: 0.529mm solid #c7c6c6;
+      }
+
+      .card:first-child {
+        border-top: none;
+      }
+
+      .card:nth-child(2) {
+        border-top: none;
+      }
+
+      .card-text p {
+        font-size: 13px;
+        line-height: 18px;
+        text-align: justify;
+        margin: 8.7691mm 0 0 8.3209mm;
+        word-break: break-word;
+      }
+
+      .card-img img {
+        margin: 3.5403mm 4.2129mm 0 0;
+      }
+
+      .card-front-img h1 {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 38.4px;
+        margin-top: 8.7691mm;
+      }
+
+      .card-front-img div {
+        font-size: 23px;
+      }
+
+      .img-front {
+        width: 161px;
+        height: 151px;
+        margin-top: 4.3846mm;
+      }
+
+      .img-instructions {
+        width: 146.2921mm;
+        height: 146.2921mm;
+      }
+
+      .last-wrapper {
+        margin-top: 146.2921mm;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -30,7 +109,6 @@
           <img src="#" alt="" />
         </div>
       </div>
-
       <div class="wrapper">
         <div class="card card-text">
           <p></p>
@@ -50,9 +128,7 @@
         <div class="card card-img">
           <img src="#" alt="" />
         </div>
-      </div>
 
-      <div class="wrapper">
         <div class="card card-text">
           <p></p>
         </div>
@@ -60,7 +136,6 @@
           <img src="#" alt="" />
         </div>
       </div>
-
       <div class="wrapper">
         <div class="card card-text">
           <p></p>
